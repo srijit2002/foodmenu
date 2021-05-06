@@ -8,6 +8,7 @@ const Container = () => {
     const showCategory=(category)=>{
         const filteredItem=data.filter(item=>(item.category===category));
         setItems(filteredItem);
+       
     }
 
     const showAll=()=>{

@@ -93,12 +93,13 @@ body {
   &:hover {
     background-color: var(--btn-hover);
   }
-  &:focus {
+  &-active {
     background-color: var(--btn-active);
     outline: 1px solid white;
     outline-offset: -3px;
   }
 }
+
 
 .card {
   max-width: 75ch;
